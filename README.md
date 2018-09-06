@@ -46,5 +46,8 @@ rate_of_interest NUMBER,
 proofs_required VARCHAR2(20) );
 );
 
+
+System.out.printf("%d\t\t%-15s\t%-20s\n",assetDetails.getAssetId(),assetDetails.getAssetName(),assetDetails.getAssetDescription());
+
  
 
