@@ -1,12 +1,26 @@
-*.class
+# Ignore node_modules directory
+node_modules/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Ignore build output directories
+build/
+dist/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Ignore cache directories
+.cache/
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore root-level build and distribution directories
+/build
+/dist
+
+# Ignore macOS .DS_Store files
+.DS_Store
