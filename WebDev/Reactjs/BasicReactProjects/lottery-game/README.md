@@ -1,8 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lottery Game
 
-Currently, two official plugins are available:
+Description
+This React application simulates a simple Lottery Game where users can generate a 3-digit lottery ticket and check if they win by summing up the digits to reach 15.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Generate Ticket Button: Displays a button that generates a random 3-digit lottery ticket.
+Ticket Verification: Automatically checks if the sum of the ticket's digits equals 15 upon generation.
+Winning Confirmation: Displays a success message if the ticket's digits sum up to 15, indicating a win in the lottery.
