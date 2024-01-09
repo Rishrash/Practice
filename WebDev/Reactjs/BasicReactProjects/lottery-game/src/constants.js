@@ -1,1 +1,2 @@
-export const WINNING_NUMBER = 15;
+export const WINNING_NUMBER = 11;
+export const NUMBER_OF_DIGITS_IN_LOTTERY_TICKET = 2;

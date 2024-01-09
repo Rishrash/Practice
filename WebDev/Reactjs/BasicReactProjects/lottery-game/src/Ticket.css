@@ -1,4 +1,6 @@
-.ticket{
+.Ticket{
   border: 1px solid plum;
   border-radius: 15px;
+  width: 250;
+  margin-bottom: 15px;
 }
